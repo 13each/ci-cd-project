@@ -16,4 +16,4 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag my-image-name
     - name: Make Docker container
-      run: docker run my-image-name
+      run: docker run -d my-image-name
